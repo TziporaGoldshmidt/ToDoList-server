@@ -18,7 +18,7 @@ app.use('/',mess,(req,res,next)=>{
     next()
 })
 
-app.use('/tasks',TaskRouter);
+app.use('/api/tasks',TaskRouter);
 
 app.listen(5000, () => {
     console.log('app is running on http://localhost:5000')
